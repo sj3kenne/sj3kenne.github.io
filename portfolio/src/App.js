@@ -18,7 +18,7 @@ function App() {
 
 
         <div className="navigation">
-          <img src={logo} className="logo" alt="Logo Image" />
+          {/* <img src={logo} className="logo" alt="Logo Image" /> */}
           <div className="navigation-sub">
 
             <Link to="/" className="item">Projects</Link>

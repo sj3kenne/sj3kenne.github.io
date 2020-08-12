@@ -6,7 +6,6 @@
 body {
     font: 16px Helvetica, Sans-Serif;
     line-height: 24px;
-    background: url(images/noise.jpg);
 }
 
 .clear {
@@ -24,7 +23,6 @@ body {
     padding-top: 90px;
     max-width: 300px;
     max-height: 300px;
-    transform: rotate(270deg);
 }
 
 h1 {

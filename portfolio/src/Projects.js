@@ -1,12 +1,15 @@
 import React from "react"
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
+import './App.css';
 
 // Import the BrowserRouter, Route and Link components
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Embody from './embody-headrest.js';
 
+// Import Images
+import Headrest_Overview from './images/overview-headrest.jpeg';
 
-import './App.css';
+
 
 function Projects(props) {
     return (
@@ -19,7 +22,7 @@ function Projects(props) {
                 <h1>Projects</h1>
                 <Thumbnail
                     link="/embody-headrest"
-                    image="http://twitter-image-url.jpg"
+                    image= {Headrest_Overview}
                     title="Embody Headrest"
                     category="3D Design"
                 />
