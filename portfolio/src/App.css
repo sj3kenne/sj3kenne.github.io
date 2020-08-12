@@ -40,6 +40,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* text-align: left; */
 }
 
 body {
@@ -62,6 +63,11 @@ body {
     padding-top: 90px;
     max-width: 300px;
     max-height: 300px;
+}
+
+img {
+    height: 300px;
+    width: 200px;
 }
 
 h1 {

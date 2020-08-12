@@ -2,18 +2,20 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import './App.css';
 
+import My_Picture from "./images/SamKennedy.JPG";
+
 const Title = "Sam Kennedy's Resume"
 
 function Resume(props) {
   return (
-    //   <>
-    //     <Helmet>
-    //         <title>{Title}</title>
-    //     </Helmet>
+      <>
+        <Helmet>
+            <title>{Title}</title>
+        </Helmet>
 
-        <div id="page-wrap">
+        <div id="page-wrap" style={{textAlign: "left"}}>
 
-            <img src="KEN-012425.JPG" alt="Photo of Me" id="pic" />
+            <img src={My_Picture} alt="Photo of Me" id="pic" />
 
             <div id="contact-info" class="vcard">
 
@@ -103,7 +105,7 @@ function Resume(props) {
             <div class="clear"></div>
 
         </div>
-        // </>
+        </>
   )
 }
  
