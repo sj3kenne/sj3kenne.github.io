@@ -20,6 +20,9 @@ function Projects(props) {
 
 
                 <h1>Projects</h1>
+
+                <p>The projects below are primarily focussed on personal interests.</p>
+
                 <Thumbnail
                     link="/embody-headrest"
                     image= {Headrest_Overview}
