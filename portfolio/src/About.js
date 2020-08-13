@@ -15,13 +15,13 @@ class About extends Component {
     return (
       <BrowserRouter>
         <div>
-          <Route exact path="/Resume" component={Resume} />
+          
 
           <h1>About</h1>
           <p>Link to my resume:</p>
           <Link to="/Resume">Resume</Link>
 
-
+          <Route exact path="/Resume" component={Resume} />
 
           {/* <div>
           <form className="contact-form" onSubmit={ (e) => this.formSubmit(e)}>

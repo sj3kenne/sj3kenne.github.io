@@ -1,6 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import './App.css';
+import './Resume.css';
 
 import My_Picture from "./images/SamKennedy.JPG";
 
