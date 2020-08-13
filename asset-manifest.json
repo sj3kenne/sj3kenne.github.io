@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sj3kenne.github.io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/sj3kenne.github.io/static/js/main.d8c03523.chunk.js",
+    "main.js.map": "/sj3kenne.github.io/static/js/main.d8c03523.chunk.js.map",
+    "runtime-main.js": "/sj3kenne.github.io/static/js/runtime-main.86cc6a0b.js",
+    "runtime-main.js.map": "/sj3kenne.github.io/static/js/runtime-main.86cc6a0b.js.map",
+    "static/js/2.356f6b55.chunk.js": "/sj3kenne.github.io/static/js/2.356f6b55.chunk.js",
+    "static/js/2.356f6b55.chunk.js.map": "/sj3kenne.github.io/static/js/2.356f6b55.chunk.js.map",
+    "index.html": "/sj3kenne.github.io/index.html",
+    "precache-manifest.a8fb46597eedc07826717346f5c5d48c.js": "/sj3kenne.github.io/precache-manifest.a8fb46597eedc07826717346f5c5d48c.js",
+    "service-worker.js": "/sj3kenne.github.io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/sj3kenne.github.io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.356f6b55.chunk.js.LICENSE.txt": "/sj3kenne.github.io/static/js/2.356f6b55.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/sj3kenne.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86cc6a0b.js",
+    "static/js/2.356f6b55.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.d8c03523.chunk.js"
+  ]
+}
