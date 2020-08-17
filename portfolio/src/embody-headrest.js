@@ -1,6 +1,6 @@
 import React from "react"
  
-import Headrest_Detail from './images/headrest-closein.jpg';
+import Headrest_Detail from './images/Headrest/headrest-final-physical1.jpg';
 
 function Embody(props) {
   return (
