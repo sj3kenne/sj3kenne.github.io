@@ -1,15 +1,20 @@
 import React from "react"
-import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
-import './App.css';
+import Thumbnail from '../Thumbnail.js'; // Import the Thumbnail component
+import '../App.css';
 
 // Import the BrowserRouter, Route and Link components
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Embody from './embody-headrest.js';
+import Embody from './Projects/embody-headrest.js';
 
 // Import Images
-import Headrest_Overview from './images/Headrest/headrest-final-physical1.jpg';
-
-
+import Headrest_Overview from '../images/Headrest/headrest-final-physical1.jpg';
+import Donut_Coffee from '../images/Donut/0030.png';
+import Cherry_Stem from '../images/Keycaps/cherry-stem.JPG';
+import Hydro_Wall from '../images/Hydroponics/hydro-second-iteration.jpg';
+//import Second_Board from '../images/Longboards/';
+//import Heliodox from '../images/Keyboards/';
+import Wedding_Cake from '../images/Cakes/cake-wedding1.jpg';
+//import Insoles from '../images/Insoles/';
 
 function Projects(props) {
     return (
@@ -32,21 +37,21 @@ function Projects(props) {
 
                 <Thumbnail
                     link="/donut"
-                    image="http://airbnb-image-url.jpg>"
+                    image={Donut_Coffee}
                     title="Blender Donut"
                     category="3D Design"
                 />
 
                 <Thumbnail
                     link="/cherry-keys"
-                    image="http://photoshop-image-url.jpg"
+                    image={Cherry_Stem}
                     title="CherryMX Typewriter Keycap Design"
                     category="3D Design"
                 />
 
                 <Thumbnail
                     link="/hyrdoponics"
-                    image="http://photoshop-image-url.jpg"
+                    image={Hydro_Wall}
                     title="40 Plant Hydroponic Wall"
                     category="DIY"
                 />
@@ -67,7 +72,7 @@ function Projects(props) {
 
                 <Thumbnail
                     link="/cakes"
-                    image="http://photoshop-image-url.jpg"
+                    image={Wedding_Cake}
                     title="Gallery of Cakes"
                     category="Baking"
                 />

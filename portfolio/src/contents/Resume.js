@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import './Resume.css';
 
-import My_Picture from "./images/SamKennedy.JPG";
+import My_Picture from "../images/SamKennedy.JPG";
 
 const Title = "Sam Kennedy's Resume"
 
