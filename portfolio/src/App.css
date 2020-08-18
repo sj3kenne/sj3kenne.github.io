@@ -38,7 +38,7 @@
 }
 
 .social {
-    position: absolute;
+    /* position: absolute; */
     margin-top: 20px;
     display: flex;
     bottom: 60px;
