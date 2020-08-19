@@ -7,9 +7,9 @@ function Cakes(props) {
 
     <div>
       <h1>Cakes</h1>
-      <img src={Headrest_Detail}/>
+      {/* <img src={}/> */}
     </div>
   )
 }
  
-export default Cakes;
+export default Cakes; 

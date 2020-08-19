@@ -4,7 +4,14 @@ import '../App.css';
 
 // Import the BrowserRouter, Route and Link components
 import { BrowserRouter, Route, Link } from 'react-router-dom';
+import Donut from './Projects/blender-donut.jsx';
+import Cakes from './Projects/cakes.jsx';
 import Embody from './Projects/embody-headrest.jsx';
+import Hydro from './Projects/hydroponic-wall.jsx';
+import Insoles from './Projects/insoles.jsx';
+import Keyboard from './Projects/keyboards.jsx';
+import Keycaps from './Projects/keycaps.jsx';
+import Longboard from './Projects/longboards.jsx';
 
 // Import Images
 import Headrest_Overview from '../images/Headrest/headrest-final-physical1.jpg';
@@ -21,7 +28,14 @@ function Projects(props) {
         <BrowserRouter>
             <div className="Projects">
 
+                <Route path="/donut" component={Donut} />
+                <Route path="/cherry-keys" component={Cakes} />
+                <Route path="/hydroponics" component={Hydro} />
                 <Route path="/embody-headrest" component={Embody} />
+                <Route path="/insoles" component={Insoles} />
+                <Route path="/keyboards" component={Keyboard} />
+                <Route path="/keycaps" component={Keycaps} />
+                <Route path="/longboard" component={Longboard} />
 
 
                 <h1>Projects</h1>
@@ -43,7 +57,7 @@ function Projects(props) {
                 />
 
                 <Thumbnail
-                    link="/cherry-keys"
+                    link="/keycaps"
                     image={Cherry_Stem}
                     title="CherryMX Typewriter Keycap Design"
                     category="3D Design"
@@ -64,7 +78,7 @@ function Projects(props) {
                 />
 
                 <Thumbnail
-                    link="/heliodox-tent"
+                    link="/keyboards"
                     image="http://photoshop-image-url.jpg"
                     title="Helidox (CRKBD) keyboard tenting and case redesign"
                     category="3D Design"
@@ -78,7 +92,7 @@ function Projects(props) {
                 />
 
                 <Thumbnail
-                    link="/Insoles"
+                    link="/insoles"
                     image="http://photoshop-image-url.jpg"
                     title="Insole Scanning and Printing"
                     category="3D Design"

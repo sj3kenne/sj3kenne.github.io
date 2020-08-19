@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 // Import the BrowserRouter, Route and Link components
 import { Redirect, BrowserRouter, Route, Link, Switch } from 'react-router-dom';
-import Projects from './contents/Projects.js';
+import Projects from './contents/Projects.jsx';
 import Articles from './contents/Articles.jsx';
 import About from './contents/About.jsx';
 import Resume from './contents/Resume.js';

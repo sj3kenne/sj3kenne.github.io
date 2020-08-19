@@ -12,4 +12,4 @@ function Insoles(props) {
   )
 }
  
-export default Donut;
+export default Insoles;
