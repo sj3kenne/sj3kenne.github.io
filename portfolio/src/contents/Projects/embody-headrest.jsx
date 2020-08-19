@@ -7,7 +7,6 @@ function Embody(props) {
 
     <div>
       <h1>Embody Headrest</h1>
-      {/* <p>hellow world</p> */}
       <img src={Headrest_Detail}/>
     </div>
   )

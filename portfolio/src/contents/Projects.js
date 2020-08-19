@@ -4,7 +4,7 @@ import '../App.css';
 
 // Import the BrowserRouter, Route and Link components
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Embody from './Projects/embody-headrest.js';
+import Embody from './Projects/embody-headrest.jsx';
 
 // Import Images
 import Headrest_Overview from '../images/Headrest/headrest-final-physical1.jpg';

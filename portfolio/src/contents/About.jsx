@@ -18,7 +18,7 @@ class About extends Component {
 
         <h1>About</h1>
         <p>This website acts as a portfolio for some of my personal hobbies, work projects, and web design skills.</p>
-        <p>I will add to it intermittently as projects reach a presentable state, or as I am required to showcase them.</p>
+        <p>I will add to it intermittently as projects reach a presentable state, or as I am able to showcase them.</p>
         <p>Please check out my resume to contact me.</p>
 
 

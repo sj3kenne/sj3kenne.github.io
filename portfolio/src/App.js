@@ -1,10 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 // Import the BrowserRouter, Route and Link components
-import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
+import { Redirect, BrowserRouter, Route, Link, Switch } from 'react-router-dom';
 import Projects from './contents/Projects.js';
-import Articles from './contents/Articles.js';
-import About from './contents/About.js';
+import Articles from './contents/Articles.jsx';
+import About from './contents/About.jsx';
 import Resume from './contents/Resume.js';
 import Navbar from './components/Navbar.jsx';
 import Social from './components/Social.jsx';
@@ -24,7 +24,8 @@ function App() {
           <Route path="/articles" component={Articles} />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
-          <Route path="*" component={NotFoundPage}/>
+          <Route path="/404" component={NotFoundPage} />
+          <Redirect to="/404" />
         </Switch>
         
         <Social />
