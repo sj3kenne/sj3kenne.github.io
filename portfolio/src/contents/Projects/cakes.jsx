@@ -8,6 +8,7 @@ function Cakes(props) {
     <div>
       <h1>Cakes</h1>
       {/* <img src={}/> */}
+      <p>Me and my wife bakes cakes for weddings, events, and sometimes juest bgecause we both have a sweet tooth. Below is a selection of cakes we have made.</p>
     </div>
   )
 }
