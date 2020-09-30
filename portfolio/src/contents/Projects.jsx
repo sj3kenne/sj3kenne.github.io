@@ -72,14 +72,14 @@ function Projects(props) {
 
                 <Thumbnail
                     link="/longboard"
-                    image="http://photoshop-image-url.jpg"
+                    image="https://photoshop-image-url.jpg"
                     title="Longboards"
                     category="DIY"
                 />
 
                 <Thumbnail
                     link="/keyboards"
-                    image="http://photoshop-image-url.jpg"
+                    image="https://photoshop-image-url.jpg"
                     title="Helidox (CRKBD) keyboard tenting and case redesign"
                     category="3D Design"
                 />
@@ -93,7 +93,7 @@ function Projects(props) {
 
                 <Thumbnail
                     link="/insoles"
-                    image="http://photoshop-image-url.jpg"
+                    image="https://photoshop-image-url.jpg"
                     title="Insole Scanning and Printing"
                     category="3D Design"
                 />
