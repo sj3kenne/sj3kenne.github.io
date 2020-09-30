@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9522c566da90cca193891a8b616a32cd",
+    "revision": "3b4ac2873c1714aace704d2c3ba57883",
     "url": "/sj3kenne.github.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sj3kenne.github.io/static/css/2.7eb05501.chunk.css"
   },
   {
-    "revision": "8bece396c79bc580d474",
+    "revision": "9bc33ebff52121e3b43d",
     "url": "/sj3kenne.github.io/static/css/main.b6295ca8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sj3kenne.github.io/static/js/2.2e298fdf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8bece396c79bc580d474",
-    "url": "/sj3kenne.github.io/static/js/main.26dab057.chunk.js"
+    "revision": "9bc33ebff52121e3b43d",
+    "url": "/sj3kenne.github.io/static/js/main.f49daa7a.chunk.js"
   },
   {
     "revision": "b6566b3af5ce59b19343",
@@ -120,8 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sj3kenne.github.io/static/media/keyless-ergodox.2eee7a0a.jpeg"
   },
   {
-    "revision": "ee7cd8ed2dcec943251eb2763684fc6f",
-    "url": "/sj3kenne.github.io/static/media/logo.ee7cd8ed.svg"
+    "revision": "c72d4a3ba95e0b700fae9febca0e3200",
+    "url": "/sj3kenne.github.io/static/media/logo.c72d4a3b.svg"
   },
   {
     "revision": "2f307a5951dcf20787c200f77a8c4b86",
