@@ -7,7 +7,10 @@ import Articles from './contents/Articles.jsx';
 import About from './contents/About.jsx';
 import Resume from './contents/Resume.js';
 import Navbar from './components/Navbar.jsx';
-import Social from './components/Social.jsx';
+import Footer from './components/Footer.jsx';
+
+// CSS stuff
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 // 404 page
@@ -17,18 +20,19 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar/>
-
-        <Switch>
-          <Route exact path="/" component={Projects} />
-          <Route path="/articles" component={Articles} />
-          <Route path="/about" component={About} />
-          <Route path="/resume" component={Resume} />
-          <Route path="/404" component={NotFoundPage} />
-          <Redirect to="/404" />
-        </Switch>
-        
-        <Social />
+        <div className="body">
+          <Navbar />
+          <Switch>
+            <Route path="/projects" component={Projects} />
+            <Route path="/articles" component={Articles} />
+            <Route path="/about" component={About} />
+            <Route path="/resume" component={Resume} />
+            <Route path="/404" component={NotFoundPage} />
+            <Redirect to="/404" />
+          </Switch>
+          
+          <Footer />
+          </div>
       </div>
     </BrowserRouter>
   );

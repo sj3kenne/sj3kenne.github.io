@@ -26,78 +26,81 @@ import Wedding_Cake from '../images/Cakes/cake-wedding1.jpg';
 function Projects(props) {
     return (
         <BrowserRouter>
-            <div className="Projects">
-
-                <Route path="/donut" component={Donut} />
-                <Route path="/cherry-keys" component={Cakes} />
-                <Route path="/hydroponics" component={Hydro} />
-                <Route path="/embody-headrest" component={Embody} />
-                <Route path="/insoles" component={Insoles} />
-                <Route path="/keyboards" component={Keyboard} />
-                <Route path="/keycaps" component={Keycaps} />
-                <Route path="/longboard" component={Longboard} />
-
-
+            <div className="project-container">
                 <h1>Projects</h1>
-
                 <p>The projects below are primarily focussed on personal interests.</p>
+                <section className="Projects">
 
-                <Thumbnail
-                    link="/embody-headrest"
-                    image= {Headrest_Overview}
-                    title="Embody Headrest"
-                    category="3D Design"
-                />
+                    <Route path="/donut" component={Donut} />
+                    <Route path="/cherry-keys" component={Cakes} />
+                    <Route path="/hydroponics" component={Hydro} />
+                    <Route path="/embody-headrest" component={Embody} />
+                    <Route path="/insoles" component={Insoles} />
+                    <Route path="/keyboards" component={Keyboard} />
+                    <Route path="/keycaps" component={Keycaps} />
+                    <Route path="/longboard" component={Longboard} />
 
-                <Thumbnail
-                    link="/donut"
-                    image={Donut_Coffee}
-                    title="Blender Donut"
-                    category="3D Design"
-                />
+                    <div className="left">
+                        <Thumbnail
+                            link="/embody-headrest"
+                            image= {Headrest_Overview}
+                            title="Embody Headrest"
+                            category="3D Design"
+                        />
 
-                <Thumbnail
-                    link="/keycaps"
-                    image={Cherry_Stem}
-                    title="CherryMX Typewriter Keycap Design"
-                    category="3D Design"
-                />
+                        <Thumbnail
+                            link="/donut"
+                            image={Donut_Coffee}
+                            title="Blender Donut"
+                            category="3D Design"
+                        />
 
-                <Thumbnail
-                    link="/hyrdoponics"
-                    image={Hydro_Wall}
-                    title="40 Plant Hydroponic Wall"
-                    category="DIY"
-                />
+                        <Thumbnail
+                            link="/keycaps"
+                            image={Cherry_Stem}
+                            title="CherryMX Typewriter Keycap Design"
+                            category="3D Design"
+                        />
 
-                <Thumbnail
-                    link="/longboard"
-                    image="https://photoshop-image-url.jpg"
-                    title="Longboards"
-                    category="DIY"
-                />
+                        <Thumbnail
+                            link="/hyrdoponics"
+                            image={Hydro_Wall}
+                            title="40 Plant Hydroponic Wall"
+                            category="DIY"
+                        />
+                    </div>
 
-                <Thumbnail
-                    link="/keyboards"
-                    image="https://photoshop-image-url.jpg"
-                    title="Helidox (CRKBD) keyboard tenting and case redesign"
-                    category="3D Design"
-                />
+                    <div className="right">
+                        <Thumbnail
+                            link="/longboard"
+                            image="https://photoshop-image-url.jpg"
+                            title="Longboards"
+                            category="DIY"
+                        />
 
-                <Thumbnail
-                    link="/cakes"
-                    image={Wedding_Cake}
-                    title="Gallery of Cakes"
-                    category="Baking"
-                />
+                        <Thumbnail
+                            link="/keyboards"
+                            image="https://photoshop-image-url.jpg"
+                            title="Helidox (CRKBD) keyboard tenting and case redesign"
+                            category="3D Design"
+                        />
 
-                <Thumbnail
-                    link="/insoles"
-                    image="https://photoshop-image-url.jpg"
-                    title="Insole Scanning and Printing"
-                    category="3D Design"
-                />
+                        <Thumbnail
+                            link="/cakes"
+                            image={Wedding_Cake}
+                            title="Gallery of Cakes"
+                            category="Baking"
+                        />
 
+                        <Thumbnail
+                            link="/insoles"
+                            image="https://photoshop-image-url.jpg"
+                            title="Insole Scanning and Printing"
+                            category="3D Design"
+                        />
+                    </div>
+
+                </section>
             </div>
         </BrowserRouter>
     )

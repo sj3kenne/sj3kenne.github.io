@@ -1,18 +1,23 @@
 import React, {Component} from 'react';
-import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../App.css';
 
 class Navbar extends Component {
     render () {
         return (
             <div className="navigation">
-            {/* <img src={logo} className="logo" alt="Logo Image" /> */}
+            {/* <img src={logo} className="logo" alt="Logo Image" /> */}   
+
+                <div class='sam'>
+                    <a href="/projects" className="nounderline">Sam Kennedy</a>
+                </div>
+
                 <div className="navigation-sub">
 
-                <Link to="/" className="item">Projects</Link>
-                <Link to="/articles" className="item">Articles</Link>
-                <Link to="/about" className="item">About</Link>
-                <Link to="/resume" className="item">Resume</Link>
+                    <NavLink to="/projects" className="nav-item nav-space nounderline" activeClassName="active">Projects</NavLink>
+                    <NavLink to="/articles" className="nav-item nav-space nounderline" activeClassName="active">Articles</NavLink>
+                    <NavLink to="/about" className="nav-item nav-space nounderline" activeClassName="active">About</NavLink>
+                    <NavLink to="/resume" className="nav-item nounderline" activeClassName="active">Resume</NavLink>
 
                 </div>
                 <br></br>
