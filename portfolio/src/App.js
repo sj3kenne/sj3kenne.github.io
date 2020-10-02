@@ -32,6 +32,7 @@ function App() {
         <div className="body">
           <Navbar />
           <Switch>
+            <Route exact path="/" component={Projects} /> 
             <Route path="/projects" component={Projects} />
             <Route path="/articles" component={Articles} />
             <Route path="/about" component={About} />
@@ -45,8 +46,9 @@ function App() {
             <Route path="/keycaps" component={Keycaps} />
             <Route path="/longboard" component={Longboard} />
             <Route path="/cakes" component={Cakes} />
-            <Route path="/404" component={NotFoundPage} />
-            <Redirect to="/404" />
+            {/* <Route path="/404" component={NotFoundPage} /> */}
+            {/* <Redirect to="/404" /> */}
+            <Route path="*" component={NotFoundPage} />
           </Switch>
           
           <Footer />

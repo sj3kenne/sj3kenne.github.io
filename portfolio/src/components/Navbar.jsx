@@ -9,7 +9,7 @@ class Navbar extends Component {
             {/* <img src={logo} className="logo" alt="Logo Image" /> */}   
 
                 <div class='sam'>
-                    <a href="/projects" className="nounderline">Sam Kennedy</a>
+                    <NavLink to="/projects" className="nounderline">Sam Kennedy</NavLink>
                 </div>
 
                 <div className="navigation-sub">
