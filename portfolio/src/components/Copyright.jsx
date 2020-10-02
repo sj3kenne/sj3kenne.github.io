@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCopyright } from '@fortawesome/free-regular-svg-icons'
 
-const element = <FontAwesomeIcon icon={faCopyright} />
+// const element = <FontAwesomeIcon icon={faCopyright} />
 
 class Copyright extends Component {
     render () {

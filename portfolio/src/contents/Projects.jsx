@@ -1,17 +1,9 @@
-import React from "react"
+import React, { Component } from "react"
 import Thumbnail from '../Thumbnail.jsx'; // Import the Thumbnail component
 import '../App.css';
 
 // Import the BrowserRouter, Route and Link components
-import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Donut from './Projects/blender-donut.jsx';
-import Cakes from './Projects/cakes.jsx';
-import Embody from './Projects/embody-headrest.jsx';
-import Hydro from './Projects/hydroponic-wall.jsx';
-import Insoles from './Projects/insoles.jsx';
-import Keyboard from './Projects/keyboards.jsx';
-import Keycaps from './Projects/keycaps.jsx';
-import Longboard from './Projects/longboards.jsx';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 // Import Images
 import Headrest_Overview from '../images/Headrest/headrest-final-physical1.jpg';
@@ -23,24 +15,14 @@ import Hydro_Wall from '../images/Hydroponics/hydro-second-iteration.jpg';
 import Wedding_Cake from '../images/Cakes/cake-wedding1.jpg';
 //import Insoles from '../images/Insoles/';
 
-function Projects(props) {
-    return (
-        <BrowserRouter>
+class Projects extends Component {
+    render () {
+        return (
             <div className="project-container">
                 <h1>Projects</h1>
                 <p>The projects below are primarily focused on personal interests.</p>
+
                 <section className="Projects">
-
-                    <Route path="/donut" component={Donut} />
-                    <Route path="/cherry-keys" component={Cakes} />
-                    <Route path="/hydroponics" component={Hydro} />
-                    <Route path="/embody-headrest" component={Embody} />
-                    <Route path="/insoles" component={Insoles} />
-                    <Route path="/keyboards" component={Keyboard} />
-                    <Route path="/keycaps" component={Keycaps} />
-                    <Route path="/longboard" component={Longboard} />
-                    <Route path="/cakes" component={Cakes} />
-
                     <div className="left">
                         <Thumbnail
                             link="/embody-headrest"
@@ -100,11 +82,10 @@ function Projects(props) {
                             category="3D Design"
                         />
                     </div>
-
                 </section>
             </div>
-        </BrowserRouter>
-    )
+        )
+    }
 }
 
 export default Projects;

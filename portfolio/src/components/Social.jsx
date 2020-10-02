@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faFacebook, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
-const element = <FontAwesomeIcon icon={faGithub} />
-const element2 = <FontAwesomeIcon icon={faLinkedinIn} />
-const element3 = <FontAwesomeIcon icon={faFacebook} />
+// const element = <FontAwesomeIcon icon={faGithub} />
+// const element2 = <FontAwesomeIcon icon={faLinkedinIn} />
+// const element3 = <FontAwesomeIcon icon={faFacebook} />
 
 class Social extends Component {
     render() {
