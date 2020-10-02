@@ -10,7 +10,7 @@ import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 
 // CSS stuff
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 // 404 page

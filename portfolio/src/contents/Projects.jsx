@@ -1,5 +1,5 @@
 import React from "react"
-import Thumbnail from '../Thumbnail.js'; // Import the Thumbnail component
+import Thumbnail from '../Thumbnail.jsx'; // Import the Thumbnail component
 import '../App.css';
 
 // Import the BrowserRouter, Route and Link components
@@ -28,7 +28,7 @@ function Projects(props) {
         <BrowserRouter>
             <div className="project-container">
                 <h1>Projects</h1>
-                <p>The projects below are primarily focussed on personal interests.</p>
+                <p>The projects below are primarily focused on personal interests.</p>
                 <section className="Projects">
 
                     <Route path="/donut" component={Donut} />
@@ -39,6 +39,7 @@ function Projects(props) {
                     <Route path="/keyboards" component={Keyboard} />
                     <Route path="/keycaps" component={Keycaps} />
                     <Route path="/longboard" component={Longboard} />
+                    <Route path="/cakes" component={Cakes} />
 
                     <div className="left">
                         <Thumbnail
@@ -63,18 +64,18 @@ function Projects(props) {
                         />
 
                         <Thumbnail
-                            link="/hyrdoponics"
-                            image={Hydro_Wall}
-                            title="40 Plant Hydroponic Wall"
+                            link="/longboard"
+                            image="https://photoshop-image-url.jpg"
+                            title="Longboards"
                             category="DIY"
                         />
                     </div>
 
                     <div className="right">
                         <Thumbnail
-                            link="/longboard"
-                            image="https://photoshop-image-url.jpg"
-                            title="Longboards"
+                            link="/hydroponics"
+                            image={Hydro_Wall}
+                            title="40 Plant Hydroponic Wall"
                             category="DIY"
                         />
 
