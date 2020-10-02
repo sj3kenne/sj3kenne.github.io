@@ -9,9 +9,9 @@ const Title = "Sam Kennedy's Resume"
 function Resume(props) {
   return (
       <>
-        <Helmet>
+        {/* <Helmet>
             <title>{Title}</title>
-        </Helmet>
+        </Helmet> */}
 
         <div id="page-wrap" style={{textAlign: "left"}}>
 

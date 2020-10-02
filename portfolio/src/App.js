@@ -23,7 +23,7 @@ import Longboard from './contents/Projects/longboards.jsx';
 import './App.css';
 
 // 404 page
-import NotFoundPage from './NotFoundPage.js';
+import NotFoundPage from './NotFoundPage.jsx';
 
 function App() {
   return (
