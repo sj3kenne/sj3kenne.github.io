@@ -1,6 +1,6 @@
 import React from "react"
  
-//import  from '../../images/threeDscans/';
+import satis1 from '../../images/Satisfying/0001-0239.mkv';
 
 function Satisfying(props) {
   return (
@@ -8,6 +8,13 @@ function Satisfying(props) {
     <div>
       <h1>Satisfying GIFs</h1>
       <p>This project currently under development.</p>
+
+
+
+      <figure>
+        <img src={satis1}/>
+        <figcaption>Caption goes here</figcaption>
+      </figure>
     </div>
   )
 }

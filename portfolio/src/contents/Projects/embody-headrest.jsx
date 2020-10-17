@@ -11,7 +11,13 @@ function Embody(props) {
       <p>I found however, when I wanted to rest my head, or relax in general the lack of a headrest constituted a real problem.</p>
       <p>After almost a dozen iterations, and with a inexpensive headrest off Amazon, I was able to attach them together non-destructively.</p>
       <p>My dad liked the idea so much I made one for his chair too!</p>
-      <img src={Headrest_Detail}/>
+
+
+
+      <figure>
+        <img src={Headrest_Detail}/>
+        <figcaption>Caption goes here</figcaption>
+      </figure>
     </div>
   )
 }

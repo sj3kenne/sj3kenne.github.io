@@ -1,14 +1,20 @@
-import React from "react"
+import React, {Component} from "react"
  
-function Articles(props) {
-  return (
+class Articles extends Component {
+  state = {
+
+  }
+
+  render() {
+    return (
     <div>
       <h1>Articles</h1>
-      <br></br>
-      <p>This page will probably remain empty for the immediate future.</p>
-      <p>Further down the road I will fill it with work  related Projects & Articles.</p>
+
+      <p>I am hoping to fill this tab with articles I find interesting. This page will probably remain empty for the immediate future. Further down the road I will fill it with work related Projects and Articles.</p>
     </div>
-  )
+    )
+
+  }
 }
  
 export default Articles;

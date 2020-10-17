@@ -9,6 +9,16 @@ function Cakes(props) {
       <h1>Cakes</h1>
       {/* <img src={}/> */}
       <p>My wife anmd I bakes cakes for weddings, events, and sometimes juest bgecause we both have a sweet tooth. Below is a selection of cakes we have made.</p>
+
+
+
+
+
+
+      {/* <figure>
+        <img src={finalRender}/>
+        <figcaption>Caption goes here</figcaption>
+      </figure> */}
     </div>
   )
 }

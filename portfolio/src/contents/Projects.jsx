@@ -23,7 +23,7 @@ class Projects extends Component {
         return (
             <div className="project-container">
                 <h1>Projects</h1>
-                <p>The projects below are primarily focused on personal interests.</p>
+                <p>BEHOLD, some projects!.</p>
 
                 <section className="Projects">
                     <div className="left">

@@ -10,7 +10,14 @@ function Keycaps(props) {
       <p>After my sucess with the Ergodox, I decided I wanted to tune it up a bit.</p>
       <p>You can see my multi coloured keys on the Ergodox page, but I was unsatisfied with printing quality of these, mainly due to poor PLA plastic.</p>
       <p>More interesting designs are in the pipeline, along with some better PLA!</p>
-      <img src={cherryStem}/>
+
+
+
+
+      <figure>
+        <img src={cherryStem}/>
+        <figcaption>Caption goes here</figcaption>
+      </figure>
     </div>
   )
 }

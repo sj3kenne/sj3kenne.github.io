@@ -50,7 +50,7 @@
 
 .navigation {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     display: flex;
 }
 
@@ -167,4 +167,15 @@
 .footer {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+
+/* For About.jsx */
+
+h2 {
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
 }

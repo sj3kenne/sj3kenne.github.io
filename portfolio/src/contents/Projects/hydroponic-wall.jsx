@@ -20,7 +20,13 @@ function Hyrdo(props) {
       <img src={poles2}/>
       <img src={SecondIteration}/>
       <img src={hydroTop}/>
-      <img src={screwHoles}/>
+
+
+
+      <figure>
+        <img src={screwHoles}/>
+        <figcaption>Caption goes here</figcaption>
+      </figure>
     </div>
   )
 }
