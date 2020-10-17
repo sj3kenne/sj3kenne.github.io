@@ -29,80 +29,40 @@ import './App.css';
 import NotFoundPage from './NotFoundPage.jsx';
 
 function App() {
-    return ( <
-        BrowserRouter >
-        <
-        div className = "App" >
-        <
-        div className = "body" >
-        <
-        Navbar / >
-        <
-        Switch >
-        <
-        Route exact path = "/"
-        component = { Projects }
-        />  <
-        Route path = "/projects"
-        component = { Projects }
-        /> <
-        Route path = "/articles"
-        component = { Articles }
-        /> <
-        Route path = "/about"
-        component = { About }
-        /> <
-        Route path = "/resume"
-        component = { Resume }
-        />
+  return (
+    <BrowserRouter>
+      <div className="App">
+        <div className="body">
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component={Projects} /> 
+            <Route path="/projects" component={Projects} />
+            <Route path="/articles" component={Articles} />
+            <Route path="/about" component={About} />
+            <Route path="/resume" component={Resume} />
 
-        <
-        Route path = "/embody-headrest"
-        component = { Embody }
-        /> <
-        Route path = "/donut"
-        component = { Donut }
-        /> <
-        Route path = "/keycaps"
-        component = { Keycaps }
-        /> <
-        Route path = "/prints"
-        component = { Prints }
-        /> <
-        Route path = "/longboard"
-        component = { Longboard }
-        />            
+            <Route path="/embody-headrest" component={Embody} />
+            <Route path="/donut" component={Donut} />
+            <Route path="/keycaps" component={Keycaps} />
+            <Route path="/3dprint" component={Prints} />
+            <Route path="/longboard" component={Longboard} />            
 
-        <
-        Route path = "/hydroponics"
-        component = { Hydro }
-        /> <
-        Route path = "/keyboards"
-        component = { Keyboard }
-        /> <
-        Route path = "/cakes"
-        component = { Cakes }
-        /> <
-        Route path = "/satisfying"
-        component = { Satisfying }
-        /> <
-        Route path = "/threeDscans"
-        component = { threeDscans }
-        />
+            <Route path="/hydroponics" component={Hydro} />
+            <Route path="/keyboards" component={Keyboard} />
+            <Route path="/cakes" component={Cakes} />
+            <Route path="/satisfying" component={Satisfying} />
+            <Route path="/threeDscans" component={threeDscans} />
 
-        { /* <Route path="/404" component={NotFoundPage} /> */ } { /* <Redirect to="/404" /> */ } <
-        Route path = "*"
-        component = { NotFoundPage }
-        /> <
-        /Switch>
-
-        <
-        Footer / >
-        <
-        /div> <
-        /div> <
-        /BrowserRouter>
-    );
+            {/* <Route path="/404" component={NotFoundPage} /> */}
+            {/* <Redirect to="/404" /> */}
+            <Route path="*" component={NotFoundPage} />
+          </Switch>
+          
+          <Footer />
+          </div>
+      </div>
+    </BrowserRouter>
+  );
 }
 
 export default App;
