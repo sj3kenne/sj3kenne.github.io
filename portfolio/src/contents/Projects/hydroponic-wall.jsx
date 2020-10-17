@@ -13,7 +13,7 @@ function Hyrdo(props) {
     <div>
       <h1>Hyrdoponic Wall</h1>
       <p>Taking some inspiration online, and with dreams of strawberries in a small space, I constructed a 40-pod vertical garden.</p>
-      <p>Me and my Mom, the gardener expert, haven't exactly figured out how to get the waterflow quite right for a demanding fruit like strawberries.</p>
+      <p>My Mom, the garden expert, and I haven't exactly figured out how to get the waterflow quite right for a demanding fruit like strawberries.</p>
       <p>Nevertheless, I am confident one day soon I'll be eating juicy small footprint strawberries.</p>
       <img src={firstIteration}/>
       <img src={poles1}/>

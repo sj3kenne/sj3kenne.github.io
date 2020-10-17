@@ -17,7 +17,7 @@ class Social extends Component {
                     <a href="https://Linkedin.com/in/samken415" target="_blank" className="nounderline"><FontAwesomeIcon icon={faLinkedinIn} size="2x" /></a>
                 </div>
                 <div class="social">
-                    <a href="https://www.facebook.com/" target="_blank" className="nounderline"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
+                    <a href="https://www.facebook.com/samuel.kennedy.3323" target="_blank" className="nounderline"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
                 </div>
             </div>            
             )
