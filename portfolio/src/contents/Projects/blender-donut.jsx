@@ -3,7 +3,7 @@ import React from "react"
 import finalRender from '../../images/Donut/almost-final-render.png';
 import firstRender from '../../images/Donut/donut-first-render.png';
 import fourthRender from '../../images/Donut/donut-fourth-render.png';
-import glassRender from '../../images/Donut/donut-fourth-render.png';
+import glassRender from '../../images/Donut/first-glass-cup-saucer.png';
 import gifRender from '../../images/Donut/optimize.gif';
 import practiceRender from '../../images/Donut/pre-final-render.png';
 
@@ -17,33 +17,33 @@ function Donut(props) {
 
       <figure>
         <img src={finalRender}/>
-        <figcaption>Caption goes here</figcaption>
+        <figcaption>Delicious!</figcaption>
       </figure>
 
       <figure>
         <img src={firstRender}/>
-        <figcaption>Caption goes here</figcaption>
+        <figcaption>After a few hours it actually looked like a donut.</figcaption>
       </figure>
 
 
       <figure>
         <img src={fourthRender}/>
-        <figcaption>Caption goes here</figcaption>
+        <figcaption>Colours took no time at all. Looks a little fake though.</figcaption>
       </figure>
 
       <figure>
         <img src={glassRender}/>
-        <figcaption>Caption goes here</figcaption>
-      </figure>
-
-      <figure>
-        <img src={gifRender}/>
-        <figcaption>Caption goes here</figcaption>
+        <figcaption>Glass looks really cool in Blender.</figcaption>
       </figure>
 
       <figure>
         <img src={practiceRender}/>
-        <figcaption>Caption goes here</figcaption>
+        <figcaption>Here is a quick video-game-like render.</figcaption>
+      </figure>
+
+      <figure>
+        <img src={gifRender}/>
+        <figcaption>Let's add some action to this donut!</figcaption>
       </figure>
     </div>
   )

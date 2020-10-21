@@ -16,7 +16,7 @@ function Keycaps(props) {
 
       <figure>
         <img src={cherryStem}/>
-        <figcaption>Caption goes here</figcaption>
+        <figcaption>A cut of the cherry stem, to attach to keycap heads.</figcaption>
       </figure>
     </div>
   )

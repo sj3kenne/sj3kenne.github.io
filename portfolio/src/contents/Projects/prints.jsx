@@ -10,14 +10,26 @@ function Prints(props) {
 
     <div>
       <h1>3D Printing Projects</h1>
-      <p>This project currently under development.</p>
+      <p>Here are some of my more interesting 3D printing projects!</p>
 
-
-
+      <figure>
+        <img src={engine1}/>
+        <figcaption>Top view.</figcaption>
+      </figure>
 
       <figure>
         <img src={engine2}/>
-        <figcaption>Caption goes here</figcaption>
+        <figcaption>Side view. I've seen people run leafblowers through these to see them in action. They are really fun to spin.</figcaption>
+      </figure>
+
+      <figure>
+        <img src={bridgeBuilt}/>
+        <figcaption>After over a hundred hours of printing, and a dozen more for assembly.</figcaption>
+      </figure>
+
+      <figure>
+        <img src={BridgeDesk}/>
+        <figcaption>Here it is lit up over my desk.</figcaption>
       </figure>
     </div>
   )

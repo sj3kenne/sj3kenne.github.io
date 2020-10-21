@@ -17,7 +17,7 @@ function Longboard(props) {
 
         <figure>
         <img src={longboard}/>
-        <figcaption>Caption goes here</figcaption>
+        <figcaption>Always ready to give me some scrapped knees!</figcaption>
       </figure>
     </div>
   )

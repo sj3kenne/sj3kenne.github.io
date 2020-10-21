@@ -20,8 +20,8 @@ class Social extends Component {
                     <a href="https://www.facebook.com/samuel.kennedy.3323" target="_blank" className="nounderline"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
                 </div>
             </div>            
-            )
-        }
+        )
     }
+}
     
 export default Social;
