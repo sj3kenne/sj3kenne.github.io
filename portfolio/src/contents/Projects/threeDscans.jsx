@@ -8,7 +8,7 @@ function threeDscans(props) {
 
     <div>
       <h1>3D Scanning</h1>
-      <p>I originally learned to do this with the intent to custom print expensive orthodicts. It's possible to scan, but printing with the same quality as they are delivered from the doctor is difficult. So instead I started scanning any model who was patient enough for me to loop around them with a camera.</p>
+      <p>I originally learned to do this with the intent to custom print expensive orthotics. It's possible to scan, but printing with the same quality as they are delivered from the doctor is difficult. So instead I started scanning any model who was patient enough for me to loop around them with a camera.</p>
       <p>This is an exciting aspect of 3D printing, copy real life objects and then customize them to your desires.</p>
       
       <figure>

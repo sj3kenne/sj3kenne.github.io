@@ -5,15 +5,15 @@ import poles1 from '../../images/Hydroponics/hydro-poles.jpg';
 import poles2 from '../../images/Hydroponics/hydro-poles2.jpg';
 import SecondIteration from '../../images/Hydroponics/hydro-second-iteration.jpg';
 import hydroTop from '../../images/Hydroponics/hydro-top.jpg';
-import screwHoles from '../../images/Hydroponics/hyrdo-screw-holes.jpg';
+import screwHoles from '../../images/Hydroponics/hydro-screw-holes.jpg';
 
-function Hyrdo(props) {
+function Hydro(props) {
   return (
 
     <div>
       <h1>Hyrdoponic Wall</h1>
       <p>Taking some inspiration online, and with dreams of strawberries in a small space, I constructed a 40-pod vertical garden.</p>
-      <p>My Mom, the garden expert, and I haven't exactly figured out how to get the waterflow quite right for a demanding fruit like strawberries.</p>
+      <p>My Mom, the garden expert, and I haven't exactly figured out how to get the water flow quite right for a demanding fruit like strawberries.</p>
       <p>Nevertheless, I am confident one day soon I'll be eating juicy small footprint strawberries.</p>
 
       <figure>
@@ -28,7 +28,7 @@ function Hyrdo(props) {
       
       <figure>
         <img src={hydroTop}/>
-        <figcaption>After connecting the poles to the top line, which contained the flow of water, we had to do some thinking about how to balance the outro water line at the bottom.</figcaption>
+        <figcaption>After connecting the poles to the top line, which contained the flow of water, we had to do some thinking about how to balance the drain water line at the bottom.</figcaption>
       </figure>
 
       <figure>
@@ -50,4 +50,4 @@ function Hyrdo(props) {
   )
 }
  
-export default Hyrdo;
+export default Hydro;

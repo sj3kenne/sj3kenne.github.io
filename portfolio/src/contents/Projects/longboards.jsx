@@ -7,8 +7,8 @@ function Longboard(props) {
 
     <div>
         <h1>Longboards</h1>
-        <p>I made a couple longboards out of a desire to learn the ways of the laidback longboarder.</p>
-        <p>After a couple scraped knees and plams I lost a bit of enthusiasm. They are now resting next to my workspace calling for me to try again!</p>
+        <p>I made a couple longboards out of a desire to learn the ways of the laid back longboarder.</p>
+        <p>After a couple scraped knees and plans I lost a bit of enthusiasm. They are now resting next to my workspace calling for me to try again!</p>
         <p>The real winner is my infant son who absolutely loves the spinning wheels!</p>
 
 

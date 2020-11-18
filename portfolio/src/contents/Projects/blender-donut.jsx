@@ -13,7 +13,7 @@ function Donut(props) {
     <div>
       <h1>Blender Donut</h1>
       <p>My first project when learning blender was the classic Blender Donut. You can see the various iterations below.</p>
-      <p>A dount called for some hot drinks, plates, and some atomsphere!</p>
+      <p>A donut called for some hot drinks, plates, and some atmosphere!</p>
 
       <figure>
         <img src={finalRender}/>

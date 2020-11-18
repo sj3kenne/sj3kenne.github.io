@@ -22,7 +22,7 @@ class About extends Component {
 
         <h2>Who am I?</h2>
         <p>If you couldn't tell for the URL or the header, my name is Sam Kennedy. I'm an engineer, project manager, University of Waterloo alumni, and aspiring designer. I love working on projects in new mediums or that personally apply to, and interest me. </p>
-        <p>I have a small family, just my wife Brooklyn, and my young son Wesley. My wife tolerates my projects, sometimes taking an active part (willingingly or not!). Wesley on the other hand is quite fascinated with just about anything! He can stare at a 3D printed jet engine for hours! He is a pretty easy crowd to please though...</p>
+        <p>I have a small family, just my wife Brooklyn, and my young son Wesley. My wife tolerates my projects, sometimes taking an active part (willingly or not!). Wesley on the other hand is quite fascinated with just about anything! He can stare at a 3D printed jet engine for hours! He is a pretty easy crowd to please though...</p>
 
         <h2>Contact me!</h2>
         <p>Please check out my resume to contact me. Also you can find me on LinkedIn and Facebook, as you see below in the footer.</p>

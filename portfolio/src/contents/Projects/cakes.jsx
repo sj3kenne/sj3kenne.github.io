@@ -11,7 +11,7 @@ class Cakes extends Component {
       <div>
         <h1>Cakes</h1>
         {/* <img src={}/> */}
-        <p>My wife and I bakes cakes for weddings, events, and sometimes juest bgecause we both have a sweet tooth. Below is a selection of cakes we have made.</p>
+        <p>My wife and I bakes cakes for weddings, events, and sometimes just because we both have a sweet tooth. Below is a selection of cakes we have made.</p>
 
         <div class="social">
           <a href="https://www.instagram.com/cakesbykennedy/" target="_blank" className="nounderline"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>

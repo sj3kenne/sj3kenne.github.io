@@ -28,7 +28,7 @@ function Resume(props) {
 
             <div id="objective">
                 <p>
-                    I am a energetic and commited young professional seeking to find a position to fit my skills, interests and future career aspirations.
+                    I am a energetic and committed young professional seeking to find a position to fit my skills, interests and future career aspirations.
                 </p>
             </div>
 

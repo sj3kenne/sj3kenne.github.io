@@ -7,7 +7,7 @@ function Satisfying(props) {
 
     <div>
       <h1>Satisfying GIFs</h1>
-      <p>This is a selection of Satisfying GIFs that I made in Blender following YouTube Tutorials. I really enjoy these, and I hope you find them as sastisfying as I do!</p>
+      <p>This is a selection of Satisfying GIFs that I made in Blender following YouTube Tutorials. I really enjoy these, and I hope you find them as satisfying as I do!</p>
 
 
 

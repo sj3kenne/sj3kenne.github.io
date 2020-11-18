@@ -19,7 +19,7 @@ function Prints(props) {
 
       <figure>
         <img src={engine2}/>
-        <figcaption>Side view. I've seen people run leafblowers through these to see them in action. They are really fun to spin.</figcaption>
+        <figcaption>Side view. I've seen people run leaf blowers through these to see them in action. They are really fun to spin.</figcaption>
       </figure>
 
       <figure>
