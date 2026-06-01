@@ -22,8 +22,8 @@ class Projects extends Component {
     render () {
         return (
             <div className="project-container">
-                <h1>Creative Projects</h1>
-                <p>BEHOLD, some projects! These projects are personal interests, hobbies, or learning focuses for me.</p>
+                <h1>Professional Projects</h1>
+                <p>Professional projects I led, or gave significant contributions to. Most are focused on IoT through my consulting corporation SKONE.</p>
 
                 <section className="Projects">
                     <div className="left">

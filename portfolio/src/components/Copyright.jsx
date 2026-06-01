@@ -9,7 +9,7 @@ class Copyright extends Component {
         return(
         <div className="copyright">
             <FontAwesomeIcon icon={faCopyright} />
-            &nbsp;2020, Sam Kennedy
+            &nbsp;2022, Sam Kennedy
         </div>
 
         )

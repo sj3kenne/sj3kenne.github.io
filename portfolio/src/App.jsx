@@ -2,9 +2,11 @@ import React from 'react';
 // import logo from './logo.svg';
 // Import the BrowserRouter, Route and Link components
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Consulting from './contents/Consulting.jsx';
 import Projects from './contents/Projects.jsx';
 import Articles from './contents/Articles.jsx';
 import About from './contents/About.jsx';
+import Certificates from './contents/Certificates.jsx';
 import Resume from './contents/Resume.jsx';
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
@@ -36,9 +38,11 @@ function App() {
           <Navbar />
           <Switch>
             <Route exact path="/" component={Projects} /> 
+            <Route path="/consulting" component={Consulting} />
             <Route path="/projects" component={Projects} />
             <Route path="/articles" component={Articles} />
             <Route path="/about" component={About} />
+            <Route path="/certificates" component={Certificates} />
             <Route path="/resume" component={Resume} />
 
             <Route path="/embody-headrest" component={Embody} />
@@ -55,7 +59,8 @@ function App() {
 
             {/* <Route path="/404" component={NotFoundPage} /> */}
             {/* <Redirect to="/404" /> */}
-            <Route path="*" component={NotFoundPage} />
+            <Route path="/*" component={NotFoundPage} /> 
+            {/* I changed to /*, did it work? */}
           </Switch>
           
           <Footer />

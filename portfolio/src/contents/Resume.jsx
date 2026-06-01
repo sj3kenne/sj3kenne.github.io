@@ -1,10 +1,10 @@
 import React from "react"
-import { Helmet } from "react-helmet"
+//import { Helmet } from "react-helmet"
 import './Resume.css';
 
 import My_Picture from "../images/SamKennedy.JPG";
 
-const Title = "Sam Kennedy's Resume"
+//const Title = "Sam Kennedy's Resume"
 
 function Resume(props) {
   return (
@@ -15,7 +15,7 @@ function Resume(props) {
 
         <div id="page-wrap" style={{textAlign: "left"}}>
 
-            <img src={My_Picture} alt="Photo of Me" id="pic" />
+            <img src={My_Picture} alt="It's me" id="pic" />
 
             <div id="contact-info" class="vcard">
 
@@ -41,6 +41,9 @@ function Resume(props) {
                 <dd>
                     <h2>University of Waterloo</h2>
                     <p> Honours Bachelor of Applied Science,<br /> Management Engineering, with Distinction, Co-operative Program</p>
+
+                    <h3>University of California Irvine</h3>
+                    <p>Embedded Systems Engineering</p>
 
                     <h3>Durham College</h3>
                     <p>Certificate in Trade Fundamentals</p>
@@ -70,7 +73,7 @@ function Resume(props) {
 
                 <dt>Experience</dt>
                 <dd>
-                    <h2>Fontur International<span>Solutions Engineer - ON - 2020-2021</span></h2>
+                    <h2>Fontur International<span>Solutions Engineer - ON - 2020-2022</span></h2>
                     <p>Solution Engineer building and supporting multiple IoT projects in a variety of industries.</p>
                     <ul>
                         <li>Designed innovative solutions combining multiple technologies</li>
@@ -106,7 +109,7 @@ function Resume(props) {
                     <p>Maintained information technology control activities for the Governance, Risk and Compliance group.</p>
                     <ul>
                         <li>Supported implementation of an enterprise risk governance software</li>
-                        <li>Developed processes for efficiently migrating dat</li>
+                        <li>Developed processes for efficiently migrating data</li>
                         <li>Championed software engineering best practices to non-technical stakeholders</li>
                     </ul>
 

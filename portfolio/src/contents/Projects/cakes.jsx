@@ -14,7 +14,7 @@ class Cakes extends Component {
         <p>My wife and I bakes cakes for weddings, events, and sometimes just because we both have a sweet tooth. Below is a selection of cakes we have made.</p>
 
         <div class="social">
-          <a href="https://www.instagram.com/cakesbykennedy/" target="_blank" className="nounderline"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
+          <a href="https://www.instagram.com/cakesbykennedy/" className="nounderline"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
           <p style={{"padding-left": "10px"}}>Check out my wife's instagram! I can't claim credit on helping on all though.</p>
         </div>
 
